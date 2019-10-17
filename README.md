@@ -10,3 +10,4 @@ Zadania wykonywane na studiach
 7. ZadaniePetle.java - Wyświetl liczby od 1 do 10 + Wyświetl liczby od 5 do 10 + Wyświetl liczby od 10 do 1.
 8. FizzBuzz.java - Wyświetl liczby od 1 do 100 podzielne bez reszty:przez 3; przez 5; przez 3 i 5 jednocześnie
 9. ExFiveLoops.java - Wyświetl liczby w pętli z przedziału podanego przez użytkownika.
+10. ExCircle.java - Oblicz pole koła.
