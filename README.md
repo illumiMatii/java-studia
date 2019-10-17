@@ -11,3 +11,4 @@ Zadania wykonywane na studiach
 8. FizzBuzz.java - Wyświetl liczby od 1 do 100 podzielne bez reszty:przez 3; przez 5; przez 3 i 5 jednocześnie
 9. ExFiveLoops.java - Wyświetl liczby w pętli z przedziału podanego przez użytkownika.
 10. ExCircle.java - Oblicz pole koła.
+11. FibonacciString.java - Ciąg Fibonacciego.
