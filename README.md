@@ -12,3 +12,4 @@ Zadania wykonywane na studiach
 9. ExFiveLoops.java - Wyświetl liczby w pętli z przedziału podanego przez użytkownika.
 10. ExCircle.java - Oblicz pole koła.
 11. FibonacciString.java - Ciąg Fibonacciego.
+12. randomNumCol.java - Napisz program, który losuje 6 różnych z 49 liczb (używając kolekcji) *.
