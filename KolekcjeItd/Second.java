@@ -13,7 +13,7 @@ public class Second {
         String strLine;
 
         ArrayList<String> words = new ArrayList<>();
-        ArrayList<String> wordsThree = new ArrayList<>();
+        ArrayList<String> wordsTwo = new ArrayList<>();
 
         while ((strLine = buffer.readLine()) != null){
             strLine = strLine.trim();
@@ -33,10 +33,10 @@ public class Second {
 
                 if (i != j){
                     if (checkWord.equals(checkSecondWord)){
-                        if (wordsThree.contains(checkSecondWord)){
+                        if (wordsTwo.contains(checkSecondWord)){
                             break;
                         } else{
-                            wordsThree.add(checkWord);
+                            wordsTwo.add(checkWord);
                         }
                     }
 
@@ -44,6 +44,6 @@ public class Second {
             }
         }
 
-        System.out.println(wordsThree);
+        System.out.println(wordsTwo);
     }
 }
