@@ -1,9 +1,7 @@
 package KolekcjeItd;
 
 import java.io.*;
-import java.util.HashSet;
 import java.util.ArrayList;
-import java.util.Set;
 
 
 public class Second {
@@ -12,24 +10,40 @@ public class Second {
         DataInputStream data_input = new DataInputStream(fstream);
         BufferedReader buffer =  new BufferedReader(new InputStreamReader(data_input));
 
-        String str_line;
+        String strLine;
 
         ArrayList<String> words = new ArrayList<>();
-        Set<String> unic = new HashSet<>(words);
+        ArrayList<String> wordsThree = new ArrayList<>();
 
-        while ((str_line = buffer.readLine()) != null){
-            str_line = str_line.trim();
-            if ((str_line.length() != 0)){
-                words.add(str_line);
+        while ((strLine = buffer.readLine()) != null){
+            strLine = strLine.trim();
+            if ((strLine.length() != 0)){
+                words.add(strLine);
             }
         }
 
-        System.out.println(words);
-        System.out.println(unic);
+        String checkWord;
+        String checkSecondWord;
 
 
         for (int i = 0; i < words.size(); i++){
+            checkWord = words.get(i);
+            for (int j = 0; j < words.size(); j++){
+                checkSecondWord = words.get(j);
 
+                if (i != j){
+                    if (checkWord.equals(checkSecondWord)){
+                        if (wordsThree.contains(checkSecondWord)){
+                            break;
+                        } else{
+                            wordsThree.add(checkWord);
+                        }
+                    }
+
+                }
+            }
         }
+
+        System.out.println(wordsThree);
     }
 }
