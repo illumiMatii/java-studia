@@ -20,7 +20,7 @@ public class Triangle {
 
         if(a + b > c && a + c > b && b + c > a){
             System.out.println("Te boki tworzą trójkąt");
-            if(asquare + bsquare > csquare && asquare + csquare > bsquare && bsquare + csquare > asquare){
+            if((asquare + bsquare == csquare) || (asquare + csquare == bsquare) || (bsquare + csquare == asquare)){
                 System.out.println("Ten trójkąt jest prostokątny");
             } else{
                 System.out.println("Ten trójkąt nie jest prostokątny");
