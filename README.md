@@ -1,5 +1,5 @@
 # java-studia
-Zadania wykonywane na studiach
+## Zadania wykonywane na studiach
 
 1. MinMax.java - Wylosuj liczbę z podanego zakresu i wyświetl ją (zakres min i max wpisuje użytkownik).
 2. RandomNum.java - Napisz program,  który losuje liczbę. Użytkownik ma za zadanie odgadnąć liczbę wylosowaną przez komputer z określonego zakresu.  Program ma podpowiadać “za dużo”, “za mało” lub “odgadłeś za “+liczba_prób+”razem”.
